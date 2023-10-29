@@ -1,0 +1,6 @@
+output/*
+cache/*
+output-test/
+vendor/
+config.json
+rules/*

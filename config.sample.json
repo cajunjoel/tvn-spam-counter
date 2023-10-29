@@ -1,0 +1,23 @@
+{ 
+  "cache_lifetime": 86400000,
+  "output_path": "./output",
+  "cache_path": "./cache",
+  "rules": "RULENAME.JSON",
+  "event_name": "2023 EVENT NAME",
+  "sleep": 0,
+  "cookies": 	{
+		"xf_user": "GET_FROM_BROWSER",
+		"xf_tfa_trust": "GET_FROM_BROWSER",
+		"xf_session": "GET_FROM_BROWSER",
+		"xf_csrf": "GET_FROM_BROWSER"
+  },
+  "cookie_domain": "www.tarvalon.net",
+  "database": {
+    "type": "mysql",
+    "host": "localhost",
+    "port": "3306",
+    "user": "USERNAME",
+    "password": "PASSWORD",
+    "database": "DB_NAME"
+  }
+}

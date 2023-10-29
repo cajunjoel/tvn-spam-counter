@@ -1,0 +1,33 @@
+{
+    "name": "jorell-alracha/spam-counter",
+    "description": "A Spamathon Counter for TarValon.net (HTML Scraper version)",
+    "type": "project",
+    "require": {
+        "masterminds/html5": "^2.7",
+        "league/csv": "^9.8",
+        "guzzlehttp/guzzle": "^7.5",
+        "seld/cli-prompt": "^1.0",
+        "tarvalon-net/spamathon": "dev-master",
+        "p3k/emoji-detector": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "JorellAlracha\\SpamCounter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jorell al'Racha",
+            "email": "tarvalon@joelrichard.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "path",
+            "url": "./packages/tarvalon-net/spamathon",
+            "options": {
+                "symlink": true
+            }
+        }
+    ]  
+}

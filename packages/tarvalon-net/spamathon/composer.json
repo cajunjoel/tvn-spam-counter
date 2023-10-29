@@ -1,0 +1,17 @@
+{
+  "name": "tarvalon-net/spamathon",
+  "description": "Counting the spam during free week.",
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "Jorell al'Racha",
+          "email": "jorell@joelrichard.com"
+      }
+  ],
+  "autoload": {
+    "psr-4": {"TarValonNet\\": "src"}
+  },
+  "require": {
+      "php": "^8.0"
+  }
+}
